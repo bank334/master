@@ -57,10 +57,10 @@ helpMessage =""" [􀜁􀇔􏿿] BOT Line V.3  􀔃􀄆
 ✰[Respon]  
 ✰[Speedbot] 
 ✰[Up]   
-✰[Tagall]  
+✰[แท็ค]  
 ✰[Banlist] 
 ✰[Gn namagroup] 
-✰[Cancel] 
+✰[ยกเชิน] 
 ✰[Set View] 
 ✰[Open Url] 
 ✰[Close Url]
@@ -895,28 +895,28 @@ def bot(op):
                     X.name = msg.text.replace("Gn ","")
                     cl.updateGroup(X)
                 else:
-                    cl.sendText(msg.to,"It can't be used besides the group.")
+                    cl.sendText(msg.to, "ไม่สามารถใช้นอกเหนือจากกลุ่มได้" )
             elif ("Cv1 gn " in msg.text):
                 if msg.toType == 2:
                     X = cl.getGroup(msg.to)
                     X.name = msg.text.replace("Cv1 gn ","")
                     ki.updateGroup(X)
                 else:
-                    ki.sendText(msg.to,"It can't be used besides the group.")
+                    ki.sendText(msg.to, "ไม่สามารถใช้นอกเหนือจากกลุ่มได้" )
             elif ("Cv2 gn " in msg.text):
                 if msg.toType == 2:
                     X = cl.getGroup(msg.to)
                     X.name = msg.text.replace("Cv2 gn ","")
                     kk.updateGroup(X)
                 else:
-                    kk.sendText(msg.to,"It can't be used besides the group.")
+                    kk.sendText(msg.to, "ไม่สามารถใช้นอกเหนือจากกลุ่มได้" )
             elif ("Cv3 gn " in msg.text):
                 if msg.toType == 2:
                     X = cl.getGroup(msg.to)
                     X.name = msg.text.replace("Cv3 gn ","")
                     kc.updateGroup(X)
                 else:
-                    kc.sendText(msg.to,"It can't be used besides the group.")
+                    kc.sendText(msg.to, "ไม่สามารถใช้นอกเหนือจากกลุ่มได้" )
             elif "Kick " in msg.text:
               if msg.from_ in admin:
                 midd = msg.text.replace("Kick ","")
@@ -997,7 +997,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Bmid}
                 kk.sendMessage(msg)
-            elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Gift"]:
+            elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","ของขวัญ"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
                                     'PRDTYPE': 'THEME',
@@ -1047,7 +1047,7 @@ def bot(op):
                             cl.sendText(msg.to,"Sorry, nobody absent")
                 else:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"ไม่สามารถใช้ได้นอกจากในกลุ่ม"
+                        cl.sendText(msg.to,"ไม่สามารถใช้ได้นอกจากในกลุ่ม")
                     else:
                         cl.sendText(msg.to,"Not for use less than group")
             elif msg.text in ["Cv cancel","Bot cancel"]:
