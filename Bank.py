@@ -45,7 +45,8 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage =""" [􀜁􀇔􏿿] BOT Line V.3  􀔃􀄆
 
-    􀜁􀇔􏿿BANK BOT LINE􀜁􀇔􏿿
+   ☣[BÄŃK ŁłŊĘ BØŦ]☣
+
 ✰[Me]  
 ✰[My mid]
 ✰[Bot?] 
@@ -64,7 +65,8 @@ helpMessage =""" [􀜁􀇔􏿿] BOT Line V.3  􀔃􀄆
 ✰[Open Url] 
 ✰[Close Url]
 
-    􀜁􀇔􏿿LINEBOT􀜁􀇔􏿿
+     ☣[ŁłŊĘ BØŦ]☣
+
 ✰[Set group] 
 ✰[Banned @]
 ✰[Unban @]  
@@ -74,7 +76,8 @@ helpMessage =""" [􀜁􀇔􏿿] BOT Line V.3  􀔃􀄆
 ✰[Kick mid] 
 ✰[Ayo masuk] 
 ✰[_namabot join] 
-✰[Bye _namabot]  
+✰[Bye _namabot]
+  ☣════[ŁłŊĘ BØŦ]════☣
 """
 
 Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
@@ -880,7 +883,7 @@ def bot(op):
                     cl.sendText(msg.to,helpMessage)
                 else:
                     cl.sendText(msg.to,helpt)
-            elif msg.text in ["Set group"]:
+            elif msg.text in ["Set"]:
               if msg.from_ in admin:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,Setgroup)
@@ -1031,7 +1034,7 @@ def bot(op):
                 ki.sendMessage(msg)
                 kk.sendMessage(msg)
                 kc.sendMessage(msg)
-            elif msg.text in ["Cancel","cancel"]:
+            elif msg.text in ["ยกเชิน","cancel"]:
                 if msg.toType == 2:
                     X = cl.getGroup(msg.to)
                     if X.invitee is not None:
@@ -1039,12 +1042,12 @@ def bot(op):
                         cl.cancelGroupInvitation(msg.to, gInviMids)
                     else:
                         if wait["lang"] == "JP":
-                            cl.sendText(msg.to,"No one is inviting")
+                            cl.sendText(msg.to,"ไม่มีคนเชิน")
                         else:
                             cl.sendText(msg.to,"Sorry, nobody absent")
                 else:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Can not be used outside the group")
+                        cl.sendText(msg.to,"ไม่สามารถใช้ได้นอกจากในกลุ่ม"
                     else:
                         cl.sendText(msg.to,"Not for use less than group")
             elif msg.text in ["Cv cancel","Bot cancel"]:
