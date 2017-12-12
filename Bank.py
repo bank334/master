@@ -39,8 +39,6 @@ ke.login(qr=True)
 ku = LINETCR.LINE()
 ku.login(qr=True)
 
-cl
-
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -108,7 +106,7 @@ admin=["u33d60593ad472ed11e7907fb1daee6ae"]
 wait = {
     'contact':False,
     'autoJoin':True,
-    'autoCancel':{"on":True,"members":1},
+    'autoCancel':{"on":True,"members":10},
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':False,
@@ -782,7 +780,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
 
 
@@ -792,7 +790,7 @@ def bot(op):
             if msg.contentType == 16:
                 url = msg.contentMetadata("line://home/post?userMid="+mid+"&postId="+"new_post")
                 cl.like(url[25:58], url[66:], likeType=1001)
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.contentType == 13:
                if wait["wblack"] == True:
@@ -876,7 +874,7 @@ def bot(op):
                     cl.sendText(msg.to,msg.text)
             elif msg.text is None:
                 return
-            elif msg.text in ["Key","help","Help"]:
+            elif msg.text in ["Key","คำสั่ง","Help"]:
               if msg.from_ in Bots:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpMessage)
