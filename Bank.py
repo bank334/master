@@ -45,38 +45,38 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
+helpMessage =""" [􀜁􀇔􏿿] BOT Line V.3  􀔃􀄆
 
-􀔃􀅕red arrow right􏿿 Command Public
-[Me]       Cek Akun Sendiri
-[My mid]   Cek Akun Mid
-[Bot?]     Cek Akun Bot
-[Id Group] Cek Id Group
-[Ginfo]    Group Info
-[Mid RA]   Cek All mid Bot
-[RA 1/2/3/4] Cek Mid Bot
-[Respon]   Cek Respon Bot
-[Speedbot] Cek Kecepatan Bot
-[Up]       Fungsi Spam Chat
-[Tagall]   Mention Semua User
-[Banlist]  Cek List Akun Banned
-[Gn namagroup] Ganti Nama Group
-[Cancel] Cancel User Masuk Group
-[Set View] Cek Privasi Group
-[Open Url]  Membuka Url Group
-[Close Url] Menutup Url Group
+    􀜁􀇔􏿿BANK BOT LINE􀜁􀇔􏿿
+✰[Me]  
+✰[My mid]
+✰[Bot?] 
+✰[Id Group] 
+✰[Ginfo]  
+✰[Mid RA]  
+✰[RA 1/2/3/4]
+✰[Respon]  
+✰[Speedbot] 
+✰[Up]   
+✰[Tagall]  
+✰[Banlist] 
+✰[Gn namagroup] 
+✰[Cancel] 
+✰[Set View] 
+✰[Open Url] 
+✰[Close Url]
 
-􀔃􀅕red arrow right􏿿 Command Private
-[Set group] Menggatur Privasi Grup
-[Banned @] Bann Target 
-[Unban @]  Unbann Target
-[Kill @] Kick Target Bann
-[Nk @]   Kick Target User
-[Invite mid] Invite Via Mid
-[Kick mid] Kick Via mid
-[Ayo masuk] Invite Semua Bot
-[_namabot join] Invite Bot
-[Bye _namabot]  Leave Bot
+    􀜁􀇔􏿿LINEBOT􀜁􀇔􏿿
+✰[Set group] 
+✰[Banned @]
+✰[Unban @]  
+✰[Kill @]
+✰[Nk @] 
+✰[Invite mid]
+✰[Kick mid] 
+✰[Ayo masuk] 
+✰[_namabot join] 
+✰[Bye _namabot]  
 """
 
 Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
