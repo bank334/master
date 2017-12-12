@@ -808,18 +808,18 @@ def bot(op):
                elif wait["dblack"] == True:
                    if msg.contentMetadata["mid"] in wait["commentBlack"]:
                         del wait["commentBlack"][msg.contentMetadata["mid"]]
-                        cl.sendText(msg.to,"deleted")
-                        ki.sendText(msg.to,"deleted")
-                        kk.sendText(msg.to,"deleted")
-                        kc.sendText(msg.to,"deleted")
+                        cl.sendText(msg.to,"👉ลบ👈")
+                        ki.sendText(msg.to,"👉ลบ👈")
+                        kk.sendText(msg.to,"👉ลบ👈")
+                        kc.sendText(msg.to,"👉ลบ👈")
                         wait["dblack"] = False
 
                    else:
                         wait["dblack"] = False
-                        cl.sendText(msg.to,"It is not in the black list")
-                        ki.sendText(msg.to,"It is not in the black list")
-                        kk.sendText(msg.to,"It is not in the black list")
-                        kc.sendText(msg.to,"It is not in the black list")
+                        cl.sendText(msg.to,"ไม่ได้อยู่ในรายการสีดำ")
+                        ki.sendText(msg.to,"ไม่ได้อยู่ในรายการสีดำ")
+                        kk.sendText(msg.to,"ไม่ได้อยู่ในรายการสีดำ")
+                        kc.sendText(msg.to,"ไม่ได้อยู่ในรายการสีดำ")
                elif wait["wblacklist"] == True:
                    if msg.contentMetadata["mid"] in wait["blacklist"]:
                         cl.sendText(msg.to,"already")
@@ -838,18 +838,18 @@ def bot(op):
                elif wait["dblacklist"] == True:
                    if msg.contentMetadata["mid"] in wait["blacklist"]:
                         del wait["blacklist"][msg.contentMetadata["mid"]]
-                        cl.sendText(msg.to,"deleted")
-                        ki.sendText(msg.to,"deleted")
-                        kk.sendText(msg.to,"deleted")
-                        kc.sendText(msg.to,"deleted")
+                        cl.sendText(msg.to,"👉ลบ👈")
+                        ki.sendText(msg.to,"👉ลบ👈")
+                        kk.sendText(msg.to,"👉ลบ👈")
+                        kc.sendText(msg.to,"👉ลบ👈")
                         wait["dblacklist"] = False
 
                    else:
                         wait["dblacklist"] = False
-                        cl.sendText(msg.to,"It is not in the black list")
-                        ki.sendText(msg.to,"It is not in the black list")
-                        kk.sendText(msg.to,"It is not in the black list")
-                        kc.sendText(msg.to,"It is not in the black list")
+                        cl.sendText(msg.to,"ไม่ได้อยู่ในรายการสีดำ")
+                        ki.sendText(msg.to,"ไม่ได้อยู่ในรายการสีดำ")
+                        kk.sendText(msg.to,"ไม่ได้อยู่ในรายการสีดำ")
+                        kc.sendText(msg.to,"ไม่ได้อยู่ในรายการสีดำ")
                elif wait["contact"] == True:
                     msg.contentType = 0
                     cl.sendText(msg.to,msg.contentMetadata["mid"])
@@ -992,7 +992,7 @@ def bot(op):
             elif msg.text in ["Me"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': msg.from_}
-                random.choice(KAC).sendMessage(msg)
+                random.choice(KAC).sendMessage(msg.to,"☣[ŁłŊĘ BØŦ]☣")
             elif msg.text in ["Cv2"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Bmid}
@@ -1980,7 +1980,7 @@ def bot(op):
                         kb.leaveGroup(msg.to)
                         ko.leaveGroup(msg.to)
                         ke.leaveGroup(msg.to)
-                        ku.leaveGroup(msg.to)
+                        ku.leaveGroup(msg.to,"💞ออกแล้วครับไวเจอกันใหม่💞")
                     except:
                         pass
             elif msg.text in ["Bye _Second"]:
