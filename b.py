@@ -100,7 +100,7 @@ helpMessage =""" ❇===== ✞ [B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅
 KAC = [cl]
 mid = cl.getProfile().mid
 Bots=[mid]
-admin = ["uca51afa767df87ba3705494b97c3355c"]
+admin = ["u6e2ec37dbe96a68bed4acf361b2439de"]
 staff = [""]
 adminMID = [""]
 
@@ -203,7 +203,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u1b3ce3c7bfbbc5f4b5f2f6ded16ba3a5":
+                if msg.from_ == "u6e2ec37dbe96a68bed4acf361b2439de":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
