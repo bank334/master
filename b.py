@@ -9,35 +9,11 @@ cl = LINETCR.LINE()
 cl.login(token='Eovh4zGLFhhc8afnM9U8.jsLDjQ0ZqgMziswUzA0Bga.lR5MlT1n5QcfdA7sSFQsQqtfbKwjhdMZwJjGS3jw2ko')
 cl.loginResult()
 
-#ki = LINETCR.LINE()
-#ki.login(token='EodBkRiNTyGfX6hmiJF7.MRMd87JLMY8NA0SCe7JEXW.n3bZThRvoy0WZuvugBJRwnSz/xhjYSy5bbCCcCxLDAc')
-#ki.loginResult()
-
-#ki2 = LINETCR.LINE()
-#ki2.login(token='EoTGyjxChx3KBNbEPZ17.Hxx9HD4DOCVtyi2H4Xw/LW.rcdk6I+Hmf+DL2RskfwInP7JPJTmpVVz6ZYTd9wZQuM')
-#ki2.loginResult()
-
-#ki3 = LINETCR.LINE()
-#ki3.login(token='EoZGOz6sbGNwc6Km9iAb.juoyJSz+tC9+7+A7/f6aYW.LcI6ChxecIJKnVz/2mb+NBEIfJluUCmqMdqwMQJnuU4')
-#ki3.loginResult()
-
-#ki4 = LINETCR.LINE()
-#ki4.login(token='EohpKjmfrqEGCEcBE6ja.SLVWsPK5M6KaknJm1Uo7kG./vZheYhMSkqDTzjLMoEUaBmjen7JTAIHEtwOW+2O/pI')
-#ki4.loginResult()
-
-#ki5 = LINETCR.LINE()
-#ki5.login(token='EoHmCm3tDAI04QkPFWvd.5bjHCp8nTH8vy4tmH9fBpq.Hj1zZ0NJ/Lt89uOjCqZPAa2dUlLm22jp9/zwJWjVX00')
-#ki5.loginResult()
-
-#ki6 = LINETCR.LINE()
-#ki6.login(token='EohpKjmfrqEGCEcBE6ja.SLVWsPK5M6KaknJm1Uo7kG./vZheYhMSkqDTzjLMoEUaBmjen7JTAIHEtwOW+2O/pI')
-#ki6.loginResult()
-
 print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""   😍  ℜゆণধਘ่❍❇ਘัથនุ์❂ನูန❇😍
+helpMessage =""" ❇===== ✞ [B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̅̅ ̲̲̅̅&̲̲̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅] ✞ =====❇
 ➣ [Id]➣ ไอดี
 ➣ [Mid]➣ เอมไอดีเรา
 ➣ [Mic:]➣เชคเอมไอดี
@@ -87,7 +63,7 @@ helpMessage ="""   😍  ℜゆণধਘ่❍❇ਘัથនุ์❂ನูန�
 ➣ [Mybio: 「Isi Bio」]  
 ➣ [Allbio: 「Isi Bio bot」] 
   
-           [C̶̲̅ᴏ̶̲̅ᴍ̶̲̅ᴍ̶̲̅ᴀ̶̲̅ɴ̶̲̅ᴅ̶̲̅ ̶̲̅ɪ̶̲̅ɴ̶̲̅ ̶̲̅G̶̲̅ʀ̶̲̅ᴏ̶̲̅ᴜ̶̲̅ᴘ̶̲̅]
+         ✞ [B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̅̅ ̲̲̅̅&̲̲̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅] ✞
 
 ➣ [Link on]
 ➣ [Link off] 
@@ -105,7 +81,8 @@ helpMessage ="""   😍  ℜゆণধਘ่❍❇ਘัથនุ์❂ನูန�
 ➣ [Ban:]
 ➣ [Unban:]
 ➣ [Kill] ➣ ไล่เตะแบน
-         👉👉👉คำสั่งล็อกห้อง👈👈👈
+
+        ⎈คำสั่งล็อกห้อง⎈
 
 ➣ [Protect on]➣ ป้องกันเปิด
 ➣ [qrprotect on/off]➣ ล้อกคิวอาร์โค้ต
@@ -114,29 +91,15 @@ helpMessage ="""   😍  ℜゆণধਘ่❍❇ਘัથនุ์❂ನูန�
 ➣ [Staff add/remove @]
 ➣ Respons
         
-  ™ℜゆণধਘ่❍❇ਘัથនุ์❂ನูန❇
+    ✞ [B̲̲̅̅a̲̲̅̅n̲̲̅̅k̲̲̅ ̲̲̅ʙ̲̲̅̅ᴏ̲̲̅̅ᴛ̲̲̅̅ ̲̲̅̅&̲̲̅̅ ̲̲̅̅L̲̲̅̅i̲̲̅n̲̲̅̅e̲̲̲̅̅̅] ✞
 
-👉line.me/ti/p/~getk9999👈
-   ™ℜゆণধਘ่❍❇ਘัથនุ์❂ನูန❇
+⎈ line.me/ti/p/~bank39.com ⎈
+   🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰
     
 """
-KAC = [cl]#,ki,ki2,ki3,ki4,ki5,ki6]
-#KAB1 = ki.getProfile().mid
-#KAB2 = ki2.getProfile().mid
-#KAB3 = ki3.getProfile().mid
-#KAB4 = ki4.getProfile().mid
-#KAB5 = ki5.getProfile().mid
-#KAB6 = ki6.getProfile().mid
+KAC = [cl]
 mid = cl.getProfile().mid
-#kimid = ki.getProfile().mid
-#ki2mid = ki2.getProfile().mid
-#ki3mid = ki3.getProfile().mid
-#ki4mid = ki4.getProfile().mid
-#ki5mid = ki5.getProfile().mid
-#ki6mid = ki6.getProfile().mid
-
-
-Bots=[mid]#,kimid,ki2]
+Bots=[mid]
 admin = ["uca51afa767df87ba3705494b97c3355c"]
 staff = [""]
 adminMID = [""]
@@ -144,13 +107,6 @@ adminMID = [""]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
-#kicker1 = ki.getProfile().mid
-#kicker2 = ki2.getProfile().mid
-#kicker3 = ki3.getProfile().mid
-#kicker4 = ki4.getProfile().mid
-#kicker5 = ki5.getProfile().mid
-#kicker6 = ki6.getProfile().mid
-#bots = me + kicker1
 protectname = []
 protecturl = []
 protection = []
@@ -178,9 +134,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':False,
-    'message':"Owner. Nhu : ID:getk3333",
+    'message':"line bank39.com \n ยินดีที่ได้รู้จัก",
     "lang":"JP",
-    "comment":"Owner. Nhu : ID:getk3333",
+    "comment":"line bank39.com \n ยินดีที่ได้รู้จัก",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
